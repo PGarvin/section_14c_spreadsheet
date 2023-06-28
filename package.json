@@ -1,0 +1,30 @@
+{
+  "name": "section_14c_spreadsheet",
+  "version": "1.0.0",
+  "description": "Node.js project that pulls a Department of Labor spreadsheet on the number of organizations that are legally allowed to pay subminimum wage to people with disabilities. The project creates a new spreadsheet that will allow journalists and data visualizers more easily understand the information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PGarvin/section_14c_spreadsheet.git"
+  },
+  "keywords": [
+    "disabilities"
+  ],
+  "author": "Patrick Garvin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PGarvin/section_14c_spreadsheet/issues"
+  },
+  "homepage": "https://github.com/PGarvin/section_14c_spreadsheet#readme",
+  "devDependencies": {
+    "multi-geocoder": "^0.1.6",
+    "xlsx": "^0.18.5"
+  },
+  "dependencies": {
+    "@esri/arcgis-rest-geocoding": "^3.6.0",
+    "@esri/arcgis-rest-request": "^4.1.4"
+  }
+}
